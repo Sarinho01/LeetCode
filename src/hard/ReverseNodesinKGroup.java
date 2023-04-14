@@ -37,7 +37,7 @@ public class ReverseNodesinKGroup {
             if (nodesTemp[k] == null) {
                 firstNode = nodesTemp[k - 1];
             }
-            changeDirection(nodesTemp, head);
+            changeDirection(nodesTemp, null);
         }
 
 
