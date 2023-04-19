@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 public class UglyNumberII {
     public static void main(String[] args) {
         UglyNumberII uglyNumberII = new UglyNumberII();
-        System.out.println(uglyNumberII.nthUglyNumber(10));
+        System.out.println(uglyNumberII.nthUglyNumber(3));
     }
     public int nthUglyNumber(int n) {
        int[] numbers = new int[n];
